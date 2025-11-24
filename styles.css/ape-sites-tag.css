@@ -1,0 +1,51 @@
+.ape-sites-tag{
+    padding-top: 1rem; 
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    background-color: rgb(205, 215, 24, 0.2);
+    border-radius: 7px;
+}
+.tag-inner{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tag-inner span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 6px;
+    color: rgb(115, 198, 250);
+}
+.tag-inner a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    color: rgb(255, 255, 116);
+}
+.ape-sites-icon{
+    width: 2rem;
+    height: 2rem;
+}
+@media (max-width: 678px) {
+    .ape-sites-tag{
+        width: 90%;
+        font-size: 11px;
+    }
+}
+@media (max-width: 405px) {
+    .ape-sites-text{
+        font-size: 10px;
+    }
+    .ape-sites-text span{
+        font-size: 14px;
+    }
+    .ape-sites-tag{
+        width: 100%;
+    }
+}
