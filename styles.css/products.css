@@ -1,6 +1,6 @@
 .below-landing-paragraph{
     width: 90%;
-    background-color: yellow;
+    background-color: rgb(78, 171, 228);
     padding: 1rem;
     margin: 0 auto;
     margin-top: 1rem;
@@ -131,4 +131,5 @@
         font-size: 13px;
         border-radius: 10px;
     }
+
 }
