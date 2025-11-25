@@ -29,6 +29,10 @@
     background-color: rgb(78, 171, 228);
     font-weight: bold;
 }
+.landing-button a{
+    text-decoration: none;
+    color: white;
+}
 
 .landing-img-con{
     width: 100%;
@@ -75,4 +79,5 @@
     .landing-header{
         padding-top: 2%;       
     }
+
 }
